@@ -1,0 +1,81 @@
+.mainPage{
+    display: block;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.titleDiv{
+    width: 100%;
+    text-align: left;
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.inpText{
+    width: 100%;
+    border: none;
+    border-bottom:1px solid black ;
+    outline: 0;
+    background-color: white;
+    box-shadow: 0px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+
+.fields{
+    display: flex;
+    margin:10px;
+}
+.forms{
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 20px;
+    margin-top: 2rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);;
+}
+.forms:hover{
+    box-shadow: 1px 5px 30px 5px #aaaaaa;
+    transition: .1s;
+}
+
+.qrsCards{
+    width: 100%;
+    /* display: block; */
+    margin-top: 10rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+    /* margin: 50px; */
+}
+
+.qrsCards:hover{
+    box-shadow: 1px 5px 30px 5px #aaaaaa;
+    transition: .1s;
+}
+
+
+.buttons button{
+    background-color: #333;
+    border: none;
+    letter-spacing: .5px;
+    color: white;
+    width: 150px;
+    line-height: 30px;
+}
+
+.legendas{
+    position: absolute;
+    font-size: small;
+    text-align: left;
+}
+.legTitle{
+    display: flex;
+    
+}

@@ -1,0 +1,30 @@
+.pagination{
+    width: 100px;
+    display: flex;
+    
+    
+}
+
+.pagination .page-num{
+    padding: 2px 10px;
+    cursor:pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    color: black;
+}
+
+.pagination .page-num:hover{
+    background-color: #5AB1BB;;
+    color: #fff;
+}
+
+.pagination .active{
+    background-color: #5AB1BB;
+}
+
+tbody tr th{
+    width: 100%;
+    padding: .5rem;
+
+}
+
